@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Мета-теги -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- SEO -->
+  <title>Цены на овощи и фрукты в Коряжме | Актуальный прайс-лист</title>
+  <meta name="description" content="Актуальные цены на свежие овощи, фрукты, ягоды и орехи в Коряжме. Доступные цены, регулярные акции и скидки.">
+  <meta name="keywords" content="цены овощи коряжма, цены фрукты коряжма, прайс лист, стоимость овощей, стоимость фруктов">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Цены на овощи и фрукты в Коряжме">
+  <meta property="og:description" content="Актуальные цены на свежие овощи, фрукты, ягоды и орехи в Коряжме.">
+  <meta property="og:type" content="website">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥬</text></svg>">
+  
+  <!-- Шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Стили -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="prices">
+
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">🥬</span>
+          Овощи<span>&</span>Фрукты
+        </a>
+        
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Главная</a></li>
+            <li><a href="catalog.html" class="nav-link">Каталог</a></li>
+            <li><a href="prices.html" class="nav-link active">Цены</a></li>
+            <li><a href="about.html" class="nav-link">О нас</a></li>
+            <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-actions">
+          <a href="tel:+79001234567" class="header-phone" data-phone>
+            <span class="header-phone-icon">📞</span>
+            <span class="phone-text">+7 (900) 123-45-67</span>
+          </a>
+          <button class="burger" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Мобильное меню -->
+  <div class="mobile-menu">
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Главная</a></li>
+        <li><a href="catalog.html" class="mobile-nav-link">Каталог</a></li>
+        <li><a href="prices.html" class="mobile-nav-link active">Цены</a></li>
+        <li><a href="about.html" class="mobile-nav-link">О нас</a></li>
+        <li><a href="contacts.html" class="mobile-nav-link">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-actions">
+      <a href="tel:+79001234567" class="btn btn-phone" data-phone>📞 Позвонить</a>
+      <a href="https://wa.me/79001234567" class="btn btn-whatsapp" data-whatsapp target="_blank">💬 WhatsApp</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Заголовок страницы -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Цены и прайс-лист</h1>
+        <div class="page-breadcrumb">
+          <a href="index.html">Главная</a>
+          <span>/</span>
+          <span>Цены</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Прайс-лист -->
+    <section class="section prices-section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <p style="color: var(--gray-500); font-size: 1.125rem;">
+            💡 Цены актуальны на сегодня. Нажмите на категорию, чтобы развернуть список товаров.
+          </p>
+        </div>
+        
+        <div class="prices-table-wrapper" id="prices-list">
+          <!-- Загружается через JavaScript -->
+          <div class="loader"><div class="loader-spinner"></div></div>
+        </div>
+        
+        <div class="text-center" style="margin-top: 32px;">
+          <p style="color: var(--gray-500); margin-bottom: 16px;">
+            Цены могут меняться в зависимости от сезона и поставок
+          </p>
+          <a href="catalog.html" class="btn btn-primary">Перейти в каталог</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="section" style="background: #fff;">
+      <div class="container">
+        <h2 class="section-title fade-in">Наши преимущества</h2>
+        <div class="features-grid" style="margin-top: 48px;">
+          <div class="feature-card fade-in">
+            <div class="feature-icon">💰</div>
+            <h3 class="feature-title">Честные цены</h3>
+            <p class="feature-text">Без скрытых наценок — платите только за качество продуктов</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🏷️</div>
+            <h3 class="feature-title">Акции и скидки</h3>
+            <p class="feature-text">Регулярные акции на сезонные товары и выгодные предложения</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">📦</div>
+            <h3 class="feature-title">Опт и розница</h3>
+            <p class="feature-text">Работаем как с частными покупателями, так и с заведениями</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🌟</div>
+            <h3 class="feature-title">Гарантия свежести</h3>
+            <p class="feature-text">Если товар не понравится — вернём деньги без вопросов</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); color: #fff;">
+      <div class="container">
+        <div class="text-center fade-in">
+          <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 16px;">Оптовым покупателям — особые условия!</h2>
+          <p style="font-size: 1.125rem; opacity: 0.9; margin-bottom: 32px; max-width: 500px; margin-left: auto; margin-right: auto;">
+            Для ресторанов, кафе и магазинов предлагаем специальные цены. Свяжитесь для уточнения!
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
+            <a href="tel:+79001234567" class="btn btn-lg" style="background: #fff; color: #16a34a;" data-phone>
+              📞 Позвонить
+            </a>
+            <a href="contacts.html" class="btn btn-lg" style="background: rgba(255,255,255,0.2); color: #fff; border: 2px solid #fff;">
+              Контакты
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span>🥬</span> Овощи<span>&</span>Фрукты
+          </a>
+          <p class="footer-text">
+            Магазин свежих овощей, фруктов, ягод и орехов в городе Коряжма. 
+            Качественные продукты по доступным ценам каждый день!
+          </p>
+          <div class="footer-social">
+            <a href="https://vk.com/veggies_fruit_kor" target="_blank" data-vk title="ВКонтакте">📱</a>
+            <a href="https://wa.me/79001234567" target="_blank" data-whatsapp title="WhatsApp">💬</a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Навигация</h4>
+          <div class="footer-links">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="prices.html">Цены</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Категории</h4>
+          <div class="footer-links">
+            <a href="catalog.html?category=vegetables">Овощи</a>
+            <a href="catalog.html?category=fruits">Фрукты</a>
+            <a href="catalog.html?category=berries">Ягоды</a>
+            <a href="catalog.html?category=nuts">Орехи</a>
+            <a href="catalog.html?category=greens">Зелень</a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Контакты</h4>
+          <div class="footer-links">
+            <a href="tel:+79001234567" data-phone>+7 (900) 123-45-67</a>
+            <a href="mailto:veggies.kor@mail.ru" data-email>veggies.kor@mail.ru</a>
+            <span data-address>Архангельская ул., 4</span>
+            <span>Пн-Пт: 09:00 — 21:00</span>
+            <span>Сб-Вс: 10:00 — 20:00</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2024 Овощи и фрукты. Все права защищены.</p>
+        <p>Сделано с ❤️ в Коряжме</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Плавающие кнопки -->
+  <div class="floating-buttons">
+    <a href="https://wa.me/79001234567" class="floating-btn whatsapp" data-whatsapp target="_blank" title="Написать в WhatsApp">💬</a>
+    <a href="tel:+79001234567" class="floating-btn phone" data-phone title="Позвонить">📞</a>
+    <button class="floating-btn top" title="Наверх">↑</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
