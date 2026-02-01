@@ -1,0 +1,355 @@
+{
+  "categories": [
+    {
+      "id": "vegetables",
+      "name": "Овощи",
+      "icon": "🥬"
+    },
+    {
+      "id": "fruits",
+      "name": "Фрукты",
+      "icon": "🍎"
+    },
+    {
+      "id": "berries",
+      "name": "Ягоды",
+      "icon": "🍓"
+    },
+    {
+      "id": "nuts",
+      "name": "Орехи и сухофрукты",
+      "icon": "🥜"
+    },
+    {
+      "id": "greens",
+      "name": "Зелень",
+      "icon": "🌿"
+    },
+    {
+      "id": "exotic",
+      "name": "Экзотические фрукты",
+      "icon": "🥭"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Помидоры розовые",
+      "category": "vegetables",
+      "price": 189,
+      "unit": "кг",
+      "description": "Сочные розовые томаты, идеальны для салатов",
+      "image": "https://images.unsplash.com/photo-1546470427-0d4db154ceb8?w=400&h=300&fit=crop",
+      "badge": "Хит продаж",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Огурцы свежие",
+      "category": "vegetables",
+      "price": 129,
+      "unit": "кг",
+      "description": "Хрустящие огурчики прямо с грядки",
+      "image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Перец болгарский",
+      "category": "vegetables",
+      "price": 249,
+      "unit": "кг",
+      "description": "Сладкий болгарский перец, разные цвета",
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Картофель молодой",
+      "category": "vegetables",
+      "price": 79,
+      "unit": "кг",
+      "description": "Отборный картофель местных фермеров",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82ber776?w=400&h=300&fit=crop",
+      "badge": "Местное",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Морковь",
+      "category": "vegetables",
+      "price": 59,
+      "unit": "кг",
+      "description": "Сладкая и сочная морковь",
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Капуста белокочанная",
+      "category": "vegetables",
+      "price": 45,
+      "unit": "кг",
+      "description": "Свежая капуста для салатов и готовки",
+      "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Лук репчатый",
+      "category": "vegetables",
+      "price": 49,
+      "unit": "кг",
+      "description": "Золотистый репчатый лук",
+      "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Свёкла столовая",
+      "category": "vegetables",
+      "price": 55,
+      "unit": "кг",
+      "description": "Сладкая свёкла для борща и салатов",
+      "image": "https://images.unsplash.com/photo-1593105544559-ecb03bf76f82?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Яблоки Гала",
+      "category": "fruits",
+      "price": 159,
+      "unit": "кг",
+      "description": "Сладкие и ароматные яблоки сорта Гала",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400&h=300&fit=crop",
+      "badge": "Популярное",
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Бананы",
+      "category": "fruits",
+      "price": 109,
+      "unit": "кг",
+      "description": "Спелые бананы из Эквадора",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Апельсины",
+      "category": "fruits",
+      "price": 139,
+      "unit": "кг",
+      "description": "Сочные апельсины, богатые витамином C",
+      "image": "https://images.unsplash.com/photo-1547514701-42782101795e?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Груши Конференц",
+      "category": "fruits",
+      "price": 189,
+      "unit": "кг",
+      "description": "Нежные и сладкие груши",
+      "image": "https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "Лимоны",
+      "category": "fruits",
+      "price": 199,
+      "unit": "кг",
+      "description": "Ароматные лимоны для чая и выпечки",
+      "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "Виноград кишмиш",
+      "category": "fruits",
+      "price": 289,
+      "unit": "кг",
+      "description": "Сладкий виноград без косточек",
+      "image": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=400&h=300&fit=crop",
+      "badge": "Сезон",
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Клубника",
+      "category": "berries",
+      "price": 450,
+      "unit": "кг",
+      "description": "Ароматная спелая клубника",
+      "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400&h=300&fit=crop",
+      "badge": "Свежее",
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "Черника",
+      "category": "berries",
+      "price": 890,
+      "unit": "кг",
+      "description": "Лесная черника, богата антиоксидантами",
+      "image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Малина",
+      "category": "berries",
+      "price": 650,
+      "unit": "кг",
+      "description": "Сладкая малина, идеальна для десертов",
+      "image": "https://images.unsplash.com/photo-1577003833619-76bbd7f82948?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 19,
+      "name": "Грецкий орех",
+      "category": "nuts",
+      "price": 590,
+      "unit": "кг",
+      "description": "Отборный грецкий орех в скорлупе",
+      "image": "https://images.unsplash.com/photo-1563412885-139e4586237f?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 20,
+      "name": "Миндаль",
+      "category": "nuts",
+      "price": 890,
+      "unit": "кг",
+      "description": "Калифорнийский миндаль высшего сорта",
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 21,
+      "name": "Курага",
+      "category": "nuts",
+      "price": 420,
+      "unit": "кг",
+      "description": "Солнечная курага из Узбекистана",
+      "image": "https://images.unsplash.com/photo-1590760475226-87ab5c0062cc?w=400&h=300&fit=crop",
+      "badge": "Полезно",
+      "inStock": true
+    },
+    {
+      "id": 22,
+      "name": "Изюм золотой",
+      "category": "nuts",
+      "price": 320,
+      "unit": "кг",
+      "description": "Сладкий золотой изюм без косточек",
+      "image": "https://images.unsplash.com/photo-1596273501048-55d3c6e9c869?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 23,
+      "name": "Укроп",
+      "category": "greens",
+      "price": 89,
+      "unit": "пучок",
+      "description": "Свежий ароматный укроп",
+      "image": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400&h=300&fit=crop",
+      "badge": "Свежее",
+      "inStock": true
+    },
+    {
+      "id": 24,
+      "name": "Петрушка",
+      "category": "greens",
+      "price": 79,
+      "unit": "пучок",
+      "description": "Ароматная петрушка для любых блюд",
+      "image": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 25,
+      "name": "Салат листовой",
+      "category": "greens",
+      "price": 129,
+      "unit": "шт",
+      "description": "Хрустящий салат для здорового питания",
+      "image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 26,
+      "name": "Манго",
+      "category": "exotic",
+      "price": 450,
+      "unit": "шт",
+      "description": "Спелое сладкое манго из Таиланда",
+      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?w=400&h=300&fit=crop",
+      "badge": "Экзотика",
+      "inStock": true
+    },
+    {
+      "id": 27,
+      "name": "Авокадо",
+      "category": "exotic",
+      "price": 189,
+      "unit": "шт",
+      "description": "Спелое авокадо для гуакамоле и салатов",
+      "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=400&h=300&fit=crop",
+      "badge": "ЗОЖ",
+      "inStock": true
+    },
+    {
+      "id": 28,
+      "name": "Ананас",
+      "category": "exotic",
+      "price": 289,
+      "unit": "шт",
+      "description": "Сочный тропический ананас",
+      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 29,
+      "name": "Кокос",
+      "category": "exotic",
+      "price": 199,
+      "unit": "шт",
+      "description": "Свежий кокос с нежной мякотью",
+      "image": "https://images.unsplash.com/photo-1580984969071-a8da8c33d668?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    },
+    {
+      "id": 30,
+      "name": "Киви",
+      "category": "exotic",
+      "price": 299,
+      "unit": "кг",
+      "description": "Витаминный киви из Новой Зеландии",
+      "image": "https://images.unsplash.com/photo-1585059895524-72359e06133a?w=400&h=300&fit=crop",
+      "badge": "",
+      "inStock": true
+    }
+  ]
+}
